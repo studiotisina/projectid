@@ -13,13 +13,13 @@ export default function Footer() {
                 </g>
             </svg>
         </div>
-        <div className="flex flex-wrap justify-center mb-2 text-sm gap-x-3 text-neutral-600">
-            <p className="transition-colors hover:text-neutral-500">PROJECT ID d.o.o.</p>
-            <p className="transition-colors hover:text-neutral-500">Vrisnička 18, Zagreb</p>
-            <p className="transition-colors hover:text-neutral-500">OIB: 34451227008</p>
-            <p className="transition-colors hover:text-neutral-500">IBAN: HR9423400091110968249</p>
+        <div className="flex flex-wrap justify-center mb-2 text-sm gap-x-3 text-neutral-400">
+            <p className="transition-colors hover:text-neutral-300">PROJECT ID d.o.o.</p>
+            <p className="transition-colors hover:text-neutral-300">Vrisnička 18, Zagreb</p>
+            <p className="transition-colors hover:text-neutral-300">OIB: 34451227008</p>
+            <p className="transition-colors hover:text-neutral-300">IBAN: HR9423400091110968249</p>
         </div>
-        <div className="flex flex-wrap justify-center mb-2 text-sm gap-x-3 text-neutral-600">
+        <div className="flex flex-wrap justify-center mb-4 text-sm gap-x-3 text-neutral-400">
             <a href="mailto:info@project-id.hr" className="flex gap-2 transition-colors hover:text-white">
                 <Mail strokeWidth={1.5} size={18}/>
                 info@project-id.hr
@@ -30,7 +30,6 @@ export default function Footer() {
             </a>
         </div>
         <p className="text-xs text-center text-neutral-600">
-            <span>–</span><br />
             © Project ID 2026. All rights reserved.
         </p>
       </div>
