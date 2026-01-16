@@ -38,3 +38,19 @@
   --noise: 0;
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: var(--color-neutral-700);
+  color: var(--color-neutral-50);
+}
+
+@layer base {
+
+  .container {
+    margin: 0 auto 0 auto;
+    @apply px-5 lg:px-0
+  }
+}
